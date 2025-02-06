@@ -1,4 +1,4 @@
-## Tyk Operator Kafka Example
+## Tyk Operator Streams Kafka Avro Example
 Deploys the Tyke Operator [Tyk Operator](https://github.com/TykTechnologies/tyk-operator) and its dependency
 [cert-manager](https://github.com/jetstack/cert-manager). This will also stand up a Kafka AVRO to JSON API
 example using the tyk-operator.
@@ -16,7 +16,7 @@ minikube addons enable ingress
 
 ### Example
 ```
-./up.sh --deployments operator-kafka-avro tyk-stack
+./up.sh --deployments operator-streams-kafka-avro tyk-stack
 ```
 
 To consume topic:
